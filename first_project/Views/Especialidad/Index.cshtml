@@ -1,3 +1,4 @@
+@model IEnumerable<first_project.Models.Especialidad>
 <!DOCTYPE html>
 
 <html>
@@ -9,21 +10,21 @@
 
                 <thead>
                     <tr>
-                        <th>Description</th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Descripcion)
+                        </th>
                     </tr>
                 </thead>
 
                 <tbody>
-                    <tr>
-                        <td>
-                            Cardiology
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Dermatology
-                        </td>
-                    </tr>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Descripcion)
+                            </td>
+                        </tr>
+                    }
                 </tbody>
            </table> 
         </body>
