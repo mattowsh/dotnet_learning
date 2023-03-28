@@ -1,13 +1,13 @@
-# <a><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png" alt="Python Language" width=5%></img></a> **ASP.NET Core 3.1 / C# / MVC / Entity Framework / JQuery / HTML5**
+# <a><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png" alt="Python Language" width=5%></img></a> **ASP.NET Core 3.1**
+
+### C# / MVC / Entity Framework / JQuery / HTML5
 
 Udemy course, march/april 2023
 
-**Status** in progress 🟢
-
-<br><hr><br>
+``Status`` in progress 🟢
+<hr>
 
 ## Objectives
-<br>
 
 - **Visual Studio Code**: to manage our .NET Core 3.1 project
 
