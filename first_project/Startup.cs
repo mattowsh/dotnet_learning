@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
+using first_project.Models;
 
 namespace first_project
 {
@@ -24,6 +26,7 @@ namespace first_project
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+			services.AddDbContext<first_projectContext>(opciones => opciones.UseSqlServer(Configuration.GetConnectionString("first_projectContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

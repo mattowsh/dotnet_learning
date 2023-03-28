@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/belumat/personal/dotnet_udemy/first_project/first_project.csproj": {}
+    "/home/belumat/personal/dotnet_udemy/dotnet_learning/first_project/first_project.csproj": {}
   },
   "projects": {
-    "/home/belumat/personal/dotnet_udemy/first_project/first_project.csproj": {
+    "/home/belumat/personal/dotnet_udemy/dotnet_learning/first_project/first_project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/belumat/personal/dotnet_udemy/first_project/first_project.csproj",
+        "projectUniqueName": "/home/belumat/personal/dotnet_udemy/dotnet_learning/first_project/first_project.csproj",
         "projectName": "first_project",
-        "projectPath": "/home/belumat/personal/dotnet_udemy/first_project/first_project.csproj",
+        "projectPath": "/home/belumat/personal/dotnet_udemy/dotnet_learning/first_project/first_project.csproj",
         "packagesPath": "/home/belumat/.nuget/packages/",
-        "outputPath": "/home/belumat/personal/dotnet_udemy/first_project/obj/",
+        "outputPath": "/home/belumat/personal/dotnet_udemy/dotnet_learning/first_project/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/belumat/.nuget/NuGet/NuGet.Config"
@@ -35,6 +35,20 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
